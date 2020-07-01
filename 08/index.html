@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KSOSH1</title>
+    <header class="header">
+        <div class="topMenu">
+           <p id="mainText">МБОУ "Краснозаводская средняя общеобразовательная школа №1"</p>
+           <a class="mainCross">Главная</a>
+           <a class="mainCross">О школе</a>
+           <a class="mainCross">Ученикам</a>
+           <a class="mainCross">Родителям</a>
+           <a class="mainCross">Школьная жизнь</a>
+           <a class="mainCross">Контакты</a>
+        </div>
+
+        <div class="topMenuNonDesktop">
+<p id="mainText">МБОУ "Краснозаводская средняя общеобразовательная школа №1"</p>
+<a id="MainMenuButton">Главное меню</a>
+<a id="DopMenuButton">Дополнительно</a>
+        </div>
+        <div class="MainSideMenu">
+            <p><a href="#" class="mainSideCross">Главная</a></p>
+            <p><a href="#" class="mainSideCross">О школе</a></p>
+            <p><a href="#" class="mainSideCross">Ученикам</a></p>
+            <p><a href="#" class="mainSideCross">Родителям</a></p>
+            <p><a href="#" class="mainSideCross">Школьная жизнь</a></p>
+            <p><a href="#" class="mainSideCross">Контакты</a></p>
+        </div>
+
+        <div class="DopSideMenu">
+            <p><a href="#" class="mainSideCross">Электронный дневник</a></p>
+             <p><a href="#" class="mainSideCross">Экзамены</a></p>
+            <p><a href="#" class="mainSideCross"> Доступная среда</a></p>
+            <p > <a href="#" class="mainSideCross">Безопасность</a></p>
+            <p> <a href="#" class="mainSideCross">Документы</a></p>
+            <p> <a href="#" class="mainSideCross">Галерея</a></p>
+        </div>
+
+
+    </header>
+</head>
+<body>
+  <p><img src="img\dfa.png" class="mainImg"></p>
+  <div class="LineMenu">
+      <a href="#"><div id="ElBook"><img src="img\book.png" class="bookImg"><p id="ElBookText">Электронный дневник</p></div></a>
+      <a href="#"><div id="Exsam"><img src="img\hat.png" class="hatImg"><p id="ExsamText">Экзамены</p></div></a>
+      <a href="#"> <div id="AcceEnvi"><img src="img\man.png" class="manImg"><p id="manText">Доступная среда</p></div></a>
+      <a href="#"><div id="Sec"><img src="img\shield.png" class="SecImg"><p id="SecText">Безопасность</p></div></a>
+      <a href="#"><div id="Doc"><img src="img\Doc.png" class="DocImg"> <p id="DocText">Документы</p></div></a>
+      <a href="#"><div id="Gal"><img src="img\Photo.png" class="GalImg"><p id="GalText">Галерея</p></div></a>
+  </div>
+
+  <div class="NewsHeader">
+   - - - - - - - - - - - Новости - - - - - - - - - - -
+  </div>
+
+  <div class="News">
+    <div class="NewsTitle"><img src="img\date.png" class="DateImg"> <strong>Приём документов в 1-й класс</strong> </div>
+    <div class="NewsText">
+    <div class="NewsText"> <img src="img\War.jpg" class="NewsImg"> </div>
+        <div class="text">Уважаемые родители!<br><br>
+            Приём документов в 1 класс со 2 июля 2020г (для лиц, не зарегистрированных по микрорайону школы) будет осуществляться по предварительной записи.
+            График приёма документов (оригиналов и копий):
+            Понедельник-Пятница с 09:00 - 12:00.
+            Предварительная запись по телефону 8(496)545-20-11 </div>
+        </div>
+        <a href="#" id="SeeMore"><div id="More">Подробнее</div></a>
+<br>
+        <div id="BlockMore"><p id="more">                                                         </p><p id="more"><a href="#" id="reedMore">Читать больше</a></p><p id="more">                                                         </p></div>
+</div>
+
+<div class= "NewsNonDesktop">
+<a href="#" class="NewsAdress"><p>Читать новости <img src="img/news.png">  </p></a>
+</div>
+<h1>До первого сентября осталось:</h1>
+<h2 class="timer">0</h2>
+ <br><br>
+ <div class="slider">
+    <div class="item">
+      <img src="img/slide1.jpg" alt="Первый слайд">
+      <div class="slideText"></div>
+  </div>
+
+  <div class="item">
+      <img src="img/slide2.jpg" alt="Второй слайд">
+      <div class="slideText"></div>
+  </div>
+
+  <div class="item">
+      <img src="img/slide3.jpg" alt="Третий слайд">
+      <div class="slideText"></div>
+  </div>
+
+  <div class="item">
+      <img src="img/slide4.jpg" alt="Третий слайд">
+      <div class="slideText"></div>
+  </div>
+
+  <div class="item">
+      <img src="img/slide5.jpg" alt="Третий слайд">
+      <div class="slideText"></div>
+  </div>
+  
+
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+
+<div class="slider-dots">
+  <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(5)"></span>  
+</div>
+  
+<script src="script.js"></script>	
+<br>
+
+<p id="MapText">Мы на карте нашего города</p>
+<div id="map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad274008ed6e6049d9f5b1d57cf12759e66757caf82f4b88dedffb58e8ebdb0cd&amp;width=1000&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<div id="mapTablet">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad274008ed6e6049d9f5b1d57cf12759e66757caf82f4b88dedffb58e8ebdb0cd&amp;width=500&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<div id="mapMobile">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad274008ed6e6049d9f5b1d57cf12759e66757caf82f4b88dedffb58e8ebdb0cd&amp;width=350&amp;height=150&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+
+</body>
+<footer>
+    <div class="footerInfo">
+    <p id="infoText">141321, Московская область, Сергиево-Посадский район,<br>
+    г. Краснозаводск, ул. Трудовые резервы, дом 4<br>
+    <br></p>
+    <p id="infoText">тел.: 8(496)5452011<br>
+    факс.:8(496)5452011<br>
+    email: ksosh_1@mail.ru<br></p>
+<div class="issue">
+    <br>
+<a id="ConnectWU"> Связаться с нами</a>
+</div>
+<div class="issueForm">
+    <label for="Name">Ваше имя:</label><br>
+    <input type="text" id="Name" name="name" required><br>
+    <label for="Phone">Ваш телефон:</label><br>
+    <input type="text" id="Phone" name="phone" required><br>
+    <label for="Description">Ваше сообщение:</label><br>
+    <textarea id="Description" cols="70" rows="20" name="description"></textarea><br>
+    <input type="submit" value="Отправить" class="btn" name="submit">
+</div>
+<div class="SocialNet">
+    <a href="https://www.instagram.com/domushchei/"><img src="img\insta.png" class="SocialNetImg"></a>
+    <a href="https://www.facebook.com/profile.php?id=100011265348924"> <img src="img\faceb.png" class="SocialNetImg"></a>
+    <a href="https://www.youtube.com/channel/UClfKCxuVcU3L_bZklvTklXQ/featured"> <img src="img\YouT.png" class="SocialNetImg"></a>
+</div>
+</div>
+</footer>
+</html> 
